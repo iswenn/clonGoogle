@@ -1,0 +1,83 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e1e1e1;
+    color: #2d2c2c;
+}
+main{
+    margin: 200px;
+}
+
+.icon-buscador {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-grid {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+.icon-perfil{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.gmailImages{
+    align-items: center;
+    margin: 5px;
+    
+}
+ul {
+    list-style-type: none;
+    text-align: end;
+}
+.googleImg {
+    text-align: center;    
+}
+ article {
+    text-align: center;
+    padding: 5px;   
+}
+.border-button{
+   border-radius: 15px; 
+   border: none;
+   outline: none;
+   background-color: #cacaca;
+   width: 150px;
+   height: 30px;
+}
+.elemento-redondeado {
+    border-radius: 20px;
+    /* Puedes ajustar el valor para cambiar el radio de las esquinas */
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    padding: 6px;
+    width: 350px;
+}
+
+header ul li {
+    display: inline;
+    padding: 4px;
+}
+
+footer{
+    background-color: #8f8f8f;
+}
+footer ul {
+    display: inline-block;
+    margin: 5px;
+}
+
+footer ul li {
+    display: inline;
+    padding: 5px; 
+       
+}
+
+
+
+
