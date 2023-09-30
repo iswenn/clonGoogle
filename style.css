@@ -1,10 +1,42 @@
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: #e1e1e1;
+    background-color: #ffffff;
     color: #2d2c2c;
 }
-main{
-    margin: 200px;
+
+header ul li {
+    /*display: inline;*/
+    /* padding: 8px; */
+    /* padding: 8px 24px; */
+    /* padding: 8px 24px 40px 60px; */
+    /* padding: 4px;*/
+    margin-right: 20px;
+
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+main {
+
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
 }
 
 .icon-buscador {
@@ -14,49 +46,64 @@ main{
 }
 
 .icon-grid {
-    display: inline-block;
+    justify-content: flex-end;
     width: 30px;
     height: 30px;
-    align-items: center;
 }
-.icon-perfil{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
+
+.icon-perfil {
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
-.gmailImages{
-    align-items: center;
-    margin: 5px;
-    
-}
+
 ul {
     list-style-type: none;
     text-align: end;
 }
+
+
+
 .googleImg {
-    text-align: center;    
-}
- article {
     text-align: center;
-    padding: 5px;   
 }
-.border-button{
-   border-radius: 15px; 
-   border: none;
-   outline: none;
-   background-color: #cacaca;
-   width: 150px;
-   height: 30px;
+
+article {
+    text-align: center;
+    padding: 5px;
 }
-.elemento-redondeado {
+
+.btn-buscador {
     border-radius: 20px;
-    /* Puedes ajustar el valor para cambiar el radio de las esquinas */
+    background-color: #e1e1e1;
+    width: 400px;
+    height: 25px;
+    border: 1px solid #dfe1e5; 
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    
+}
+
+.border-button {
+    border-radius: 15px;
     border: none;
     outline: none;
-    background-color: #ffffff;
-    padding: 6px;
-    width: 350px;
+    background-color: #e1e1e1;
+    width: 150px;
+    height: 30px;
+}
+
+#inputBuscador {
+    outline: none;
+    border: none;
+    justify-content: space-between;
+    width: 3px;
+}
+
+.lupaColor {
+    background-color: #e1e1e1;
 }
 
 header ul li {
@@ -64,20 +111,20 @@ header ul li {
     padding: 4px;
 }
 
-footer{
-    background-color: #8f8f8f;
+footer {
+    height: auto;
 }
+
 footer ul {
     display: inline-block;
-    margin: 5px;
+    margin: 15px 0px;
 }
 
 footer ul li {
     display: inline;
-    padding: 5px; 
-       
+    padding: 15px;
 }
 
-
-
-
+footer section:last-child ul li {
+   text-align: end;
+}
