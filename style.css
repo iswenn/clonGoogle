@@ -91,7 +91,7 @@ article {
     border: none;
     outline: none;
     background-color: #e1e1e1;
-    width: 150px;
+    width: 140px;
     height: 30px;
 }
 
@@ -99,7 +99,7 @@ article {
     outline: none;
     border: none;
     justify-content: space-between;
-    width: 3px;
+    width: 300px;
 }
 
 .lupaColor {
