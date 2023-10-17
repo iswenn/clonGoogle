@@ -5,13 +5,7 @@
 }
 
 header ul li {
-    /*display: inline;*/
-    /* padding: 8px; */
-    /* padding: 8px 24px; */
-    /* padding: 8px 24px 40px 60px; */
-    /* padding: 4px;*/
     margin-right: 20px;
-
 }
 
 header ul {
@@ -116,14 +110,15 @@ footer {
 
 footer ul {
     display: inline-block;
-    margin: 15px 0px;
+    margin: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 
 footer ul li {
     display: inline;
     padding: 15px;
-}
 
-footer section:last-child ul li {
-   text-align: end;
 }
